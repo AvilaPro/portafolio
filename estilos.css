@@ -1,0 +1,53 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 137, 97);
+    color: white;
+}
+
+/* MAIN */
+.cont-portfolio{
+    display: flex;
+    justify-content: center;
+}
+.caja-izq{
+    /* background-color: aquamarine; */
+    width: 49%;
+    height: 300px;
+}
+.caja-der{
+    /* background-color: darkcyan; */
+    width: 49%;
+    height: 300px;
+}
+.caja-izq > img{
+    width: 200px;
+    height: 200px;
+}
+.caja-der > img{
+    width: 200px;
+    height: 200px;
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(17, 86, 63);
+    color: white;
+    height: 200px;
+}
